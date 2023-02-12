@@ -1,0 +1,62 @@
+<html>
+<head>
+    <title>upload</title>
+</head>
+<body>
+<div>
+    <h1>Title 1</h1>
+    <hr><br>
+    <form action = "/success" method = "post" enctype="multipart/form-data">
+        Gender: <br>
+        <fieldset id="group1">
+            <input type="radio" value=1 name="group1">Male </input>
+            <input type="radio" value=0 name="group1">Female </input>
+          </fieldset>
+        age <br>
+        <input type="number" name = "age"/>
+        <br>
+        current smoker? <br>
+        <fieldset id="group2">
+            <input type="radio" value=1 name="group2">yes</input>
+            <input type="radio" value=0 name="group2">nah</input>
+          </fieldset>
+        ciggys ber day <br>
+          <input type="number" name = "cpd"/>
+        <br>
+        bp meds? <br>
+          <fieldset id="group3">
+              <input type="radio" value=1 name="group3">yes</input>
+              <input type="radio" value=0 name="group3">nah</input>
+            </fieldset>
+        stroked? <br>
+        <fieldset id="group4">
+            <input type="radio" value=1 name="group4">yes</input>
+            <input type="radio" value=0 name="group4">nah</input>
+          </fieldset>
+        hypertension? <br>
+        <fieldset id="group5">
+            <input type="radio" value=1 name="group5">yes</input>
+            <input type="radio" value=0 name="group5">nah</input>
+          </fieldset>
+        Diabeters? <br>
+        <fieldset id="group6">
+            <input type="radio" value=1 name="group6">yes</input>
+            <input type="radio" value=0 name="group6">nah</input>
+          </fieldset>
+        systolic bp <br>
+            <input type="number" name = "sys" />
+        <br>
+        diastolic bp? <br>
+            <input type="number" name = "dia"/>
+        <br>
+        bmi? <br>
+            <input type="number" name = "bmi"/>
+        <br>
+        heart rate? <br>
+            <input type="number" name = "heartRate"/>
+            <br>
+        <input type = "submit" value="Upload">
+    </form>
+</div>
+</body>
+</html>
